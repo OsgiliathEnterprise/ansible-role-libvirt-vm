@@ -9,7 +9,8 @@
   register: result
   become: true
 
-- block:
+- name: Destory the VM is existing
+  block:
     - name: Ensure the VM is absent
       community.libvirt.virt:
         name: "{{ vm.name }}"
