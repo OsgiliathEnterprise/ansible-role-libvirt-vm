@@ -1,7 +1,7 @@
 ---
 galaxy_info:
-  #role_name: libvirt_vm
-  author: Mark Goddard
+  role_name: ansible_libvirt_vm
+  author: Mark Goddard (Fork by Tcharl)
   description: >
     Role to configure and create VMs on a Libvirt/KVM hypervisor
   company: StackHPC Ltd
