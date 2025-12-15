@@ -12,15 +12,15 @@
 
 - name: Validate VM interfaces
   ansible.builtin.include_tasks: check-interface.yml
-  vars:
-    interface: "{{ item }}"
-  with_items: "{{ interfaces }}"
+  loop: "{{ interfaces }}"
+  loop_control:
+    loop_var: interface
 
 - name: Validate Host USB Devices
   ansible.builtin.include_tasks: check-usb-devices.yml
-  vars:
-    usb_device: "{{ item }}"
-  with_items: "{{ usb_devices }}"
+  loop: "{{ usb_devices }}"
+  loop_control:
+    loop_var: usb_device
 
 - name: Ensure the VM is defined
   community.libvirt.virt:

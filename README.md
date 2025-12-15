@@ -217,7 +217,7 @@ Example Playbook
     - name: Create VMs
       hosts: hypervisor
       roles:
-        - role: stackhpc.libvirt-vm
+        - role: tcharl.ansible_libvirt_vm
           libvirt_vms:
             - state: present
               name: 'vm1'
