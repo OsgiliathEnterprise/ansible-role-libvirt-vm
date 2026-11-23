@@ -18,8 +18,5 @@ libvirt_vm_ovmf_efi_variable_store_path: "{{ '/usr/share/edk2/aarch64/vars-templ
 # Format of the template OVMF efi variable store.
 libvirt_vm_ovmf_efi_variable_store_format: raw
 
-# Format of the template OVMF efi variable store.
-libvirt_vm_ovmf_efi_variable_store_format: raw
-
 # Path to OVMF efi firmware
 libvirt_vm_ovmf_efi_firmware_path: "{{ '/usr/share/edk2/aarch64/QEMU_EFI-pflash.raw' if libvirt_vm_arch == 'aarch64' else '/usr/share/edk2/ovmf/OVMF_CODE.cc.fd' }}"
