@@ -10,6 +10,7 @@
   become: true
 
 - name: Destory the VM is existing
+  when: vm.name in result.list_vms
   block:
     - name: Ensure the VM is absent
       community.libvirt.virt:
@@ -33,4 +34,3 @@
           {{ vm.name }}
       become: true
       changed_when: true
-  when: vm.name in result.list_vms

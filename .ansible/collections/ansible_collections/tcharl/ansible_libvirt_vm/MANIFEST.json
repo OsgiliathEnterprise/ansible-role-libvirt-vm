@@ -1,0 +1,34 @@
+{
+ "collection_info": {
+  "namespace": "tcharl",
+  "name": "ansible_libvirt_vm",
+  "version": "1.0.1",
+  "authors": [
+   "Charlie Mordant <cmordant1@gmail.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "linux",
+   "system",
+   "vm"
+  ],
+  "description": "Fork of StackHPC libvirt to run on fedora",
+  "license": [
+   "Apache-2.0"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "https://github.com/OsgiliathEnterprise/ansible-role-libvirt-vm",
+  "documentation": "https://github.com/OsgiliathEnterprise/ansible-role-libvirt-vm",
+  "homepage": "https://github.com/OsgiliathEnterprise/ansible-role-libvirt-vm",
+  "issues": "https://github.com/OsgiliathEnterprise/ansible-role-libvirt-vm"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "a91de20e8296c251165f4de5a98b252aabb225066e5fb3fb1f03d05ce60d0daf",
+  "format": 1
+ },
+ "format": 1
+}

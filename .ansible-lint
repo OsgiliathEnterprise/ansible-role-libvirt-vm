@@ -1,0 +1,14 @@
+exclude_paths:
+ - .cache/
+ - .github/
+ - .poetry/
+ - .tox/
+ - meta/
+ - molecule/
+skip_list:
+ - '106'  # Role name {} does not match ``^[a-z][a-z0-9_]+$`` pattern
+ - galaxy[no-changelog]
+warn_list:
+ - name[casing]
+ - no-changed-when
+ - var-naming[no-role-prefix]

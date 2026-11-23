@@ -1,0 +1,6 @@
+---
+- name: Test libvirt VM role
+  hosts: all
+  connection: local
+  roles:
+    - ../.

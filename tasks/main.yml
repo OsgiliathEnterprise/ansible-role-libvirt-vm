@@ -8,7 +8,8 @@
         - "{{ ansible_facts.os_family }}.yml"
   tags: vars
 
-- ansible.builtin.include_tasks: autodetect.yml
+- name: Include autodetect tasks
+  ansible.builtin.include_tasks: autodetect.yml
   # We don't need to know the engine and emulator if we're not creating any new
   # VMs.
   when: >-
@@ -33,7 +34,8 @@
     update_cache: "{{ True if ansible_facts.pkg_mgr == 'apt' else omit }}"
   become: true
 
-- ansible.builtin.include_tasks: volumes.yml
+- name: Include volume tasks
+  ansible.builtin.include_tasks: volumes.yml
   vars:
     volumes: "{{ vm.volumes | default([], true) }}"
   with_items: "{{ libvirt_vms }}"
@@ -41,7 +43,8 @@
     loop_var: vm
   when: (vm.state | default('present', true)) == 'present'
 
-- ansible.builtin.include_tasks: vm.yml
+- name: Include VM tasks
+  ansible.builtin.include_tasks: vm.yml
   vars:
     console_log_enabled: "{{ vm.console_log_enabled | default(false) }}"
     console_log_append: "{{ vm.console_log_append | default(false) }}"
@@ -65,7 +68,8 @@
     loop_var: vm
   when: (vm.state | default('present', true)) == 'present'
 
-- ansible.builtin.include_tasks: destroy-vm.yml
+- name: Include destroy VM tasks
+  ansible.builtin.include_tasks: destroy-vm.yml
   vars:
     boot_firmware: "{{ vm.boot_firmware | default('bios', true) | lower }}"
   with_items: "{{ libvirt_vms }}"
@@ -73,7 +77,8 @@
     loop_var: vm
   when: (vm.state | default('present', true)) == 'absent'
 
-- ansible.builtin.include_tasks: destroy-volumes.yml
+- name: Include destroy volume tasks
+  ansible.builtin.include_tasks: destroy-volumes.yml
   vars:
     volumes: "{{ vm.volumes | default([], true) }}"
   with_items: "{{ libvirt_vms }}"

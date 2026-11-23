@@ -1,0 +1,397 @@
+{
+ "files": [
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": "."
+  },
+  {
+   "chksum_sha256": "efd1bad8caab36a6db056d7244d99086f8598ee965e0b4b6ac7b7312a09579fc",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".DS_Store"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": ".ansible"
+  },
+  {
+   "chksum_sha256": "90142fdb85b4e2610fff1d67dfcb18724c28de619da05c66ae60761b34496a48",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".ansible-lint"
+  },
+  {
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".ansible/.lock"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": ".ansible/collections"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": ".ansible/collections/ansible_collections"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": ".ansible/collections/ansible_collections/tcharl"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": ".ansible/modules"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": ".ansible/roles"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": ".github"
+  },
+  {
+   "chksum_sha256": "a27568501ef18ccfe1b1b05f5bd293af101672e3db7728f1dbd8aab34995de4e",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".github/release-drafter.yml"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": ".github/workflows"
+  },
+  {
+   "chksum_sha256": "fefae5069f72fb3daa3e273bff27734a33b82084e767dd1acf6cbc7363bb3264",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".github/workflows/release-drafter.yml"
+  },
+  {
+   "chksum_sha256": "55a92cb0e40d44fc7b40279114e739d63a68286df5e3248bb519f18d74327316",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".github/workflows/release-galaxy.yml"
+  },
+  {
+   "chksum_sha256": "89ca8fd37eb1467911e32c85612b63af5ff9e4ae843b61898fcc9ae7c4896c1c",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".gitignore"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": ".ruff_cache"
+  },
+  {
+   "chksum_sha256": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".ruff_cache/.gitignore"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": ".ruff_cache/0.17.6"
+  },
+  {
+   "chksum_sha256": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".ruff_cache/CACHEDIR.TAG"
+  },
+  {
+   "chksum_sha256": "63bb598310f289a1a9de8d7fc3774263c01d41ed8232607d34fa9ffc202dc0ea",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".travis.yml"
+  },
+  {
+   "chksum_sha256": "830e681524bca7328166e2e8379fe34b2582995edcf1795ae702f8c1a2fa36e3",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": ".yamllint"
+  },
+  {
+   "chksum_sha256": "f1c4857908e62668eda75aeb9110c20549a76820f941f07d9897f1ab1b5e1fcd",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "README.md"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": "defaults"
+  },
+  {
+   "chksum_sha256": "ba8e8d7f79e18a326d40a983537f9c6906a5b1f0dbd0782dd1df65bb41f670f9",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "defaults/main.yml"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": "files"
+  },
+  {
+   "chksum_sha256": "5db8dea7106dd8d1f8b260f38e53ce0dde518813d791bc1fd14273d69535df69",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "files/destroy_virt_volume.sh"
+  },
+  {
+   "chksum_sha256": "c4eb501ade8ba922eb54dc83ffdeb8793621b5eccc142309db7ddbbd9be3d04a",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "files/virt_volume.sh"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": "meta"
+  },
+  {
+   "chksum_sha256": "da67983fb94a369b7d762224848e31bd9c7ecb938022165fa907cff6ec159966",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "meta/__init__.py"
+  },
+  {
+   "chksum_sha256": "cac8c520b9dc0fcccc8eb4400191f2ccedbba2e06b03fa22b4ae66e0c79a3861",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "meta/main.yml"
+  },
+  {
+   "chksum_sha256": "3b4bb57803a1730a2b100af1a059282895aef529156531e2f446563cd578591a",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "meta/runtime.yml"
+  },
+  {
+   "chksum_sha256": "0b796756c629cabc9e31695ac36b448e195c0743b6141b1d3358e89a40e5cdca",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "pyproject.toml"
+  },
+  {
+   "chksum_sha256": "414c279c449c1fe7706c029ffa385ac6aae2dbbfc588c20445a5d4d6455788fe",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "requirements-dev.txt"
+  },
+  {
+   "chksum_sha256": "2c38c529b6ea8ab8a55971a26bfd14a3796c15cd7328fe35e9e8a665a87b8cdc",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "requirements-uv.txt"
+  },
+  {
+   "chksum_sha256": "115140ebd9cd902b099f339ab444c9c36a68a831154e83e6a0194ab529098e3b",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "requirements.txt"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": "tasks"
+  },
+  {
+   "chksum_sha256": "b724897b5015a08f705d58162334efda0db33ad6736d55f9b4e849b57b276efc",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tasks/autodetect.yml"
+  },
+  {
+   "chksum_sha256": "e714c5a742377315782f4057e48c6444db0e264c1162c0a7a5010c68cbb07bc7",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tasks/check-interface.yml"
+  },
+  {
+   "chksum_sha256": "bd8066df8e1814412127d6a3a8549a998ab635c294568a69e8e8fb63f5d9aafc",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tasks/check-usb-devices.yml"
+  },
+  {
+   "chksum_sha256": "4964327271174c62eaf27c514ce19c7d4624b5c950d14b768149083b2f4f2395",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tasks/destroy-vm.yml"
+  },
+  {
+   "chksum_sha256": "66bcdd86151582fe73f93ff38a1cccb3728f873d07894edda0d92f781442a70d",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tasks/destroy-volumes.yml"
+  },
+  {
+   "chksum_sha256": "492eb8c3bd5f3b3f11a1f4b07b8729dd8d0c0adcecf9c8ef2e71f6fadace598d",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tasks/main.yml"
+  },
+  {
+   "chksum_sha256": "daa8263cc47df13e32c7d471e58519e7c62fe7b457a1caa076ac89f6855ae8c2",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tasks/vm.yml"
+  },
+  {
+   "chksum_sha256": "34c956eaa0c3808745453a02d7cda718f17f2710fbd2c43f65ab2b8d0632aff2",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tasks/volumes.yml"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": "templates"
+  },
+  {
+   "chksum_sha256": "96f83844df08cd814dd9e3c8b015132670b4ae2fdea88fff90dc575039f295c0",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "templates/vm.xml.j2"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": "tests"
+  },
+  {
+   "chksum_sha256": "e7f4da73e0afafbb10e2aba8dc625deaa97a3ea65e2914a545a46b35aca6c674",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tests/inventory"
+  },
+  {
+   "chksum_sha256": "964771da146cdebeea03aabb0d4484a9692f28802f4e7b3184738f1512e35055",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tests/test.yml"
+  },
+  {
+   "chksum_sha256": "e1ff73974995831adc5666e9edb1e058cd641caf76f1a6c1121ef6b168174233",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "tox.ini"
+  },
+  {
+   "chksum_sha256": "995ead04d17d2bf8b75111e5e4459747a83e70039952f099cca769ebae40c302",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "uv.lock"
+  },
+  {
+   "chksum_sha256": null,
+   "chksum_type": null,
+   "format": 1,
+   "ftype": "dir",
+   "name": "vars"
+  },
+  {
+   "chksum_sha256": "d97a2b78cbd2dbcd2b523478f921459f7bc573f902566d4f09a8a6dc2d5f3426",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "vars/Archlinux.yml"
+  },
+  {
+   "chksum_sha256": "8b2f4a7c08ae62f4c19a9cc4446613c4de6bfd4f2a433381079411a3b303f52d",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "vars/Debian.yml"
+  },
+  {
+   "chksum_sha256": "932990784c5ac30ea738f20c4b5b8b047ee4063ddac891f0a7d0a2cc149b195c",
+   "chksum_type": "sha256",
+   "format": 1,
+   "ftype": "file",
+   "name": "vars/RedHat.yml"
+  }
+ ],
+ "format": 1
+}
